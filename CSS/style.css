@@ -43,7 +43,7 @@ body {
 }
 
 .nav-logo img {
-    height: 150px;
+    height: 50px;
     width: auto;
 }
 
@@ -72,7 +72,7 @@ body {
     padding: 10px 30px;
     border-radius: 10px;
     border: 1px solid #fcfeff;
-    background: linear-gradient(135deg, #4279f6, #6b98ff);
+    background: linear-gradient(135deg, #4279f6, #1550EC);
     color: #fcfeff;
     font-size: 20px;
     font-weight: 500;
@@ -89,6 +89,20 @@ body {
     width: 28px;
 }
 
+/* Decorative Line */
+.decorative-line {
+    position: absolute;
+    top: 82px;
+    left: 122px;
+    width: 1196px;
+    height: 2px;
+}
+
+.decorative-line img {
+    width: 100%;
+    height: auto;
+}
+
 /* Main Content */
 .landing-page {
     background-color: #fcfeff;
@@ -102,20 +116,6 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     padding-top: 120px;
-}
-
-/* Decorative Line */
-.decorative-line {
-    position: absolute;
-    top: 120px;
-    left: 122px;
-    width: 1196px;
-    height: 2px;
-}
-
-.decorative-line img {
-    width: 100%;
-    height: auto;
 }
 
 /* Hero Section */
@@ -165,7 +165,7 @@ body {
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #4279f6, #6b98ff);
+    background: linear-gradient(135deg, #4279f6, #1550EC);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -251,7 +251,7 @@ body {
 }
 
 .feature-card {
-    background: linear-gradient(135deg, #4279f6, #6b98ff);
+    background: linear-gradient(135deg, #4279f6, #1550EC);
     border-radius: 20px;
     padding: 30px;
     width: 330px;
@@ -341,10 +341,15 @@ body {
     background-color: white;
     padding: 80px 0;
     text-align: center;
-    height: 875px;
+    height: 940px;
     position: relative;
     overflow: hidden;
 }
+
+.section-description
+    {
+        margin-bottom: 60px;
+    }
 
 .preview-container {
     position: relative;
@@ -359,7 +364,6 @@ body {
 .preview-card {
     background: white;
     border-radius: 30px;
-    border: 3px solid #4279f6;
     overflow: hidden;
     position: absolute;
 }
@@ -395,12 +399,30 @@ body {
 
 /* Developers Section */
 .developers-section {
-    background-color: #fcfeff;
+    background-color: #4279F6;
     padding: 80px 0;
     text-align: center;
     position: relative;
     height: 962px;
     overflow: hidden;
+}
+
+.developers-section-description {
+    font-size: 24px;
+    font-weight: 600;
+    color: #6d6d6d;
+    max-width: 1035px;
+    margin: 0 auto 80px;
+    line-height: 1.4;
+    padding-bottom: 40px;
+}
+
+.developers-header {
+    background-color: #fcfeff;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 60px;
+    margin-top: -80px;
 }
 
 .developers-bg {
@@ -509,7 +531,7 @@ body {
 
 /* Footer */
 .footer {
-    background: linear-gradient(135deg, #4279f6, #6b98ff);
+    background: linear-gradient(135deg, #4279f6, #1550EC);
     color: white;
     height: 289px;
     position: relative;
